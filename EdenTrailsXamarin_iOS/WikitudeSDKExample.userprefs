@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{DFA82E7F-12E6-45F0-B946-F7C9F7D1E289}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="../../../../Resources/1_ImageRecognition_1_ImageOnTarget/js/imageontarget.js" Line="34" Column="8" />
+      <File FileName="../../../../Resources/1_ImageRecognition_1_ImageOnTarget/index.html" Line="1" Column="1" />
+      <File FileName="../../../../Main.cs" Line="1" Column="1" />
+      <File FileName="../../../../Entitlements.plist" />
+      <File FileName="../../../../LaunchScreen.storyboard" Line="1" Column="1" />
+      <File FileName="../../../../WikitudeSDKExampleViewController.cs" Line="75" Column="13" />
+      <File FileName="Resources/1_ImageRecognition_1_ImageOnTarget/js/imageontarget.js" Line="10" Column="154" />
+      <File FileName="WTSDKInformationViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="Main.cs" Line="1" Column="1" />
+      <File FileName="WTSDKInformationViewController.cs" Line="37" Column="62" />
+      <File FileName="../../../../Info.plist" />
+      <File FileName="../../../../WTSDKInformationViewController.cs" Line="1" Column="1" />
+      <File FileName="WikitudeSDKExampleViewController.cs" Line="1" Column="1" />
+      <File FileName="Info.plist" />
+      <File FileName="AppDelegate.cs" Line="5" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WikitudeSDKExample" expanded="True">
+            <Node name="EdenTrails" expanded="True" selected="True">
+              <Node name="WikitudeSDKExampleViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EdenTrails PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.25b8cde7779eb4f969c6d20deb6d68e9dcace822" />
+</Properties>

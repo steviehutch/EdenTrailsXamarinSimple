@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{DFA82E7F-12E6-45F0-B946-F7C9F7D1E289}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WikitudeSDKExample</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>WikitudeSDKExample</AssemblyName>
+    <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
+    <ReleaseVersion>8.0.0</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchArch>x86_64</MtouchArch>
+    <CodesignProvision></CodesignProvision>
+    <CodesignKey>iPhone Distribution: Mermaid Enterprises Limited (355A7GLPM3)</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>x86_64</MtouchArch>
+    <CodesignProvision></CodesignProvision>
+    <CodesignKey>iPhone Distribution: Mermaid Enterprises Limited (355A7GLPM3)</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchArch>ARM64</MtouchArch>
+    <AssemblyName>EdenTrails</AssemblyName>
+    <CodesignProvision></CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType></DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignProvision></CodesignProvision>
+    <AssemblyName>EdenTrails</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision></CodesignProvision>
+    <CodesignKey>iPhone Distribution: Mermaid Enterprises Limited (355A7GLPM3)</CodesignKey>
+    <MtouchArch>ARM64</MtouchArch>
+    <AssemblyName>EdenTrails</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <ConsolePause>false</ConsolePause>
+    <CodesignProvision></CodesignProvision>
+    <MtouchArch>ARM64</MtouchArch>
+    <AssemblyName>EdenTrails</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Wikitude.SDK">
+      <HintPath>Components\com.wikitude.xamarin.component-7.1.0\lib\ios-unified\Wikitude.SDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\demo_targets.pdf" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\index.html" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\imageOne.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\magazine.wtc" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\surfer.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\css\default.css" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\js\imageontarget.js" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\JadeVine.mp4" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Bananas.mp4" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Lilypads.mp4" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Hk13f4M1z.wtc" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\South_East_Asia_53_50.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Tropical_Islands_Seychelles_98_50.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\West_Africa_Marker_48_50.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\weather.html" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Dancing_Frog_music.mp4" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\West Africa.jpg" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\tree_frog_text.html" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\tree-frog-text.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="WikitudeSDKExampleViewController.cs" />
+    <Compile Include="WikitudeSDKExampleViewController.designer.cs">
+      <DependentUpon>WikitudeSDKExampleViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WTSDKInformationViewController.cs" />
+    <Compile Include="WTSDKInformationViewController.designer.cs">
+      <DependentUpon>WTSDKInformationViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
+    <InterfaceDefinition Include="MainStoryboard_iPad.storyboard" />
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\1_ImageRecognition_1_ImageOnTarget\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-40x40%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-60x60%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-20x20%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-29x29%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-76x76%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\iTunesArtwork%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\iTunesArtwork%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-40x40%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-40x40%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-60x60%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-29x29%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-29x29%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-83.5x83.5%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-76x76%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\iTunesArtworkSPLASH%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\iTunesArtworkSPLASH%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App_40_40_SPOT%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-80_80_SPOT%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="com.wikitude.xamarin.component">
+      <Version>7.1.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>
