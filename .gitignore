@@ -1,0 +1,5 @@
+# Ignore Components
+EdenTrailsXamarin_iOS/Components/
+
+# Ignore bin
+EdenTrailsXamarin_iOS/bin/
