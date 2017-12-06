@@ -139,7 +139,7 @@ var World = {
         // Bananas = WEST AFRICA popup
         var page2 = new AR.ImageTrackable(this.tracker, "West_Africa_Marker", {
             drawables: {
-            cam: [videoFrog, treeFrogWidget]
+            cam: video2
             },
 
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
@@ -159,7 +159,7 @@ var World = {
         // Lilypads == SOUTH EAST ASIA popup...
         var page3 = new AR.ImageTrackable(this.tracker, "South_East_Asia", {
             drawables: {
-            cam: video3
+            cam: [videoFrog, treeFrogWidget]
             },
 
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
