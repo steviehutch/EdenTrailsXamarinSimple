@@ -43,7 +43,7 @@ var World = {
 			}
 		}); */
 
-        // Create JadeVine Video drawable
+        // Create JadeVine Video drawable (part of Tropical Islands)
         var video = new AR.VideoDrawable("assets/JadeVine.mp4", 0.5, {
                 translate: {
                 x: 0.2,
@@ -51,7 +51,7 @@ var World = {
             }
         });
 
-        // Create Banana Video drawable
+        // Create Banana Video drawable (part of West Africa)
         var video2 = new AR.VideoDrawable("assets/Bananas.mp4", 0.5, {
                 translate: {
                 x: 0.2,
@@ -115,6 +115,26 @@ var World = {
             }
         });
 
+        // Tropical Island Widget
+        var tropicalIslandWidget = new AR.HtmlDrawable({
+            uri: "assets/tropical_island_text.html"
+        }, 1, {
+            viewportWidth: 690,
+            viewportHeight: 400,
+            backgroundColor: "#00000000",
+            translate: {
+                x:0.36,
+                y: 0.5
+            },
+            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
+            verticalAnchor: AR.CONST.VERTICAL_ANCHOR.BOTTOM,
+            clickThroughEnabled: true,
+            allowDocumentLocationChanges: false,
+            onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
+                AR.context.openInBrowser(uri);
+            }
+        });
+
         // Weather Widget
         var weatherWidget = new AR.HtmlDrawable({
             uri: "assets/weather.html"
@@ -135,10 +155,10 @@ var World = {
         }
         });
 
-        // JadeVine  = TROPICAL ISLANDS Popup ...
+        // TROPICAL ISLANDS Popup
         var pageOne = new AR.ImageTrackable(this.tracker, "Tropical_Islands_Seychelles", {
             drawables: {
-            cam: video
+            cam: [video, tropicalIslandWidget]
             },
 
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
