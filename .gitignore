@@ -3,3 +3,6 @@ EdenTrailsXamarin_iOS/Components/
 
 # Ignore bin
 EdenTrailsXamarin_iOS/bin/
+
+# Ignore obj
+EdenTrailsXamarin_iOS/obj/
