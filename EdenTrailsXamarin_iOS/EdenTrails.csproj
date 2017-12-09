@@ -125,6 +125,12 @@
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Palm_Oil_Marker_PNG_100_100.png" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Chocolate_Marker2.png" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\WestAfricaMarkerPNG.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\tree-frog-rythm-3.gif" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\west_africa_text.html" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\west-africa-text.gif" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\tropical-island-text.gif" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\tropical_island_text.html" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Sams_Frog_Widget.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

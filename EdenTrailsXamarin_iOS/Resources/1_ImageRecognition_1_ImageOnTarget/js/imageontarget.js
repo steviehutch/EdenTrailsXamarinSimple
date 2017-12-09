@@ -155,10 +155,30 @@ var World = {
         }
         });
 
+         // Sams Tree Frog Widget
+        var samsWidget = new AR.HtmlDrawable({
+            uri: "assets/Sams_Frog_Widget.html"
+                }, 0.25, {
+            viewportWidth: 320,
+            viewportHeight: 100,
+            backgroundColor: "#FFFFFF",
+            translate: {
+                x:0.36,
+                y: 0.5
+            },
+            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
+            verticalAnchor: AR.CONST.VERTICAL_ANCHOR.TOP,
+            clickThroughEnabled: true,
+            allowDocumentLocationChanges: false,
+            onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
+            AR.context.openInBrowser(uri);
+        }
+        });
+
         // Palm Oil Popup
         var pageOne = new AR.ImageTrackable(this.tracker, "Palm_Oil_Marker_2", {
             drawables: {
-            cam: [video, tropicalIslandWidget]
+            cam: [video, tropicalIslandWidget, samsWidget]
             },
 
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {

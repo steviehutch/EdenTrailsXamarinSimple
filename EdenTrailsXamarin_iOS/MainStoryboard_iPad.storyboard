@@ -201,11 +201,12 @@
     </scenes>
     <resources>
         <image name="Default-568h.png" width="320" height="568"/>
-        <image name="1_ImageRecognition_1_ImageOnTarget/assets/West_Africa_Marker_48_50.png" width="48" height="50"/>
-        <image name="1_ImageRecognition_1_ImageOnTarget/assets/West Africa.jpg" width="800" height="837"/>
         <image name="1_ImageRecognition_1_ImageOnTarget/assets/tree-frog-text.gif" width="690" height="400"/>
         <image name="1_ImageRecognition_1_ImageOnTarget/assets/Palm_Oil_Marker_PNG_100_100.png" width="100" height="100"/>
         <image name="1_ImageRecognition_1_ImageOnTarget/assets/Chocolate_Marker2.png" width="100" height="100"/>
         <image name="1_ImageRecognition_1_ImageOnTarget/assets/WestAfricaMarkerPNG.png" width="100" height="100"/>
+        <image name="1_ImageRecognition_1_ImageOnTarget/assets/tree-frog-rythm-3.gif" width="711" height="1058"/>
+        <image name="1_ImageRecognition_1_ImageOnTarget/assets/west-africa-text.gif" width="690" height="400"/>
+        <image name="1_ImageRecognition_1_ImageOnTarget/assets/tropical-island-text.gif" width="690" height="400"/>
     </resources>
 </document>
