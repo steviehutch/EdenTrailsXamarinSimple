@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="15">
-    <device id="ipad9_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="15">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -40,7 +37,7 @@
             <objects>
                 <navigationController id="15" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="1024" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -56,7 +53,7 @@
             <objects>
                 <tableViewController id="590" customClass="WTSDKInformationViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="592">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="separatorColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,21 +61,21 @@
                             <tableViewSection headerTitle="Product Version" id="605">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1061" detailTextLabel="1062" rowHeight="44" style="IBUITableViewCellStyleValue1" id="606">
-                                        <rect key="frame" x="0.0" y="63" width="768" height="44"/>
+                                        <rect key="frame" x="0.0" y="63" width="1024" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="606" id="607">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Version Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1061">
-                                                    <rect key="frame" x="48" y="12" width="128" height="20.5"/>
+                                                    <rect key="frame" x="176" y="12" width="128" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1062">
-                                                    <rect key="frame" x="661" y="12" width="59" height="20.5"/>
+                                                    <rect key="frame" x="789" y="12" width="59" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -92,21 +89,21 @@
                             <tableViewSection headerTitle="Build Information" id="612">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1063" detailTextLabel="1064" rowHeight="44" style="IBUITableViewCellStyleValue1" id="613">
-                                        <rect key="frame" x="0.0" y="163" width="768" height="44"/>
+                                        <rect key="frame" x="0.0" y="163" width="1024" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="613" id="614">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Build Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1063">
-                                                    <rect key="frame" x="48" y="12" width="83.5" height="20.5"/>
+                                                    <rect key="frame" x="176" y="12" width="83.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1064">
-                                                    <rect key="frame" x="661" y="12" width="59" height="20.5"/>
+                                                    <rect key="frame" x="789" y="12" width="59" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -116,21 +113,21 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1065" detailTextLabel="1066" rowHeight="44" style="IBUITableViewCellStyleValue1" id="615">
-                                        <rect key="frame" x="0.0" y="207" width="768" height="44"/>
+                                        <rect key="frame" x="0.0" y="207" width="1024" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="615" id="616">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Build Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1065">
-                                                    <rect key="frame" x="48" y="12" width="109" height="20.5"/>
+                                                    <rect key="frame" x="176" y="12" width="109" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1066">
-                                                    <rect key="frame" x="661" y="12" width="59" height="20.5"/>
+                                                    <rect key="frame" x="789" y="12" width="59" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -140,21 +137,21 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1067" detailTextLabel="1068" rowHeight="44" style="IBUITableViewCellStyleValue1" id="617">
-                                        <rect key="frame" x="0.0" y="251" width="768" height="44"/>
+                                        <rect key="frame" x="0.0" y="251" width="1024" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="617" id="618">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Build Configuration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1067">
-                                                    <rect key="frame" x="48" y="12" width="151" height="20.5"/>
+                                                    <rect key="frame" x="176" y="12" width="151" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1068">
-                                                    <rect key="frame" x="661" y="12" width="59" height="20.5"/>
+                                                    <rect key="frame" x="789" y="12" width="59" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -190,7 +187,7 @@
             <objects>
                 <navigationController id="599" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="601">
-                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="1024" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -204,12 +201,11 @@
     </scenes>
     <resources>
         <image name="Default-568h.png" width="320" height="568"/>
-        <image name="1_ImageRecognition_1_ImageOnTarget/assets/imageOne.png" width="446" height="1024"/>
-        <image name="1_ImageRecognition_1_ImageOnTarget/assets/surfer.png" width="38" height="50"/>
-        <image name="1_ImageRecognition_1_ImageOnTarget/assets/South_East_Asia_53_50.png" width="53" height="50"/>
-        <image name="1_ImageRecognition_1_ImageOnTarget/assets/Tropical_Islands_Seychelles_98_50.png" width="98" height="50"/>
         <image name="1_ImageRecognition_1_ImageOnTarget/assets/West_Africa_Marker_48_50.png" width="48" height="50"/>
         <image name="1_ImageRecognition_1_ImageOnTarget/assets/West Africa.jpg" width="800" height="837"/>
         <image name="1_ImageRecognition_1_ImageOnTarget/assets/tree-frog-text.gif" width="690" height="400"/>
+        <image name="1_ImageRecognition_1_ImageOnTarget/assets/Palm_Oil_Marker_PNG_100_100.png" width="100" height="100"/>
+        <image name="1_ImageRecognition_1_ImageOnTarget/assets/Chocolate_Marker2.png" width="100" height="100"/>
+        <image name="1_ImageRecognition_1_ImageOnTarget/assets/WestAfricaMarkerPNG.png" width="100" height="100"/>
     </resources>
 </document>

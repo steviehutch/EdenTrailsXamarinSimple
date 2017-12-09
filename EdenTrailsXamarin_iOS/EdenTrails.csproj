@@ -112,23 +112,19 @@
     <BundleResource Include="Resources\Default-568h%402x.png" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\demo_targets.pdf" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\index.html" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\imageOne.png" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\magazine.wtc" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\surfer.png" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\css\default.css" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\js\imageontarget.js" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\JadeVine.mp4" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Bananas.mp4" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Lilypads.mp4" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Hk13f4M1z.wtc" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\South_East_Asia_53_50.png" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Tropical_Islands_Seychelles_98_50.png" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\West_Africa_Marker_48_50.png" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\weather.html" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Dancing_Frog_music.mp4" />
-    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\West Africa.jpg" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\tree_frog_text.html" />
     <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\tree-frog-text.gif" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\EdenTrailsMarker.wtc" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Dancing_Frog_Jeepers_Creepers.mp4" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Palm_Oil_Marker_PNG_100_100.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\Chocolate_Marker2.png" />
+    <BundleResource Include="Resources\1_ImageRecognition_1_ImageOnTarget\assets\WestAfricaMarkerPNG.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

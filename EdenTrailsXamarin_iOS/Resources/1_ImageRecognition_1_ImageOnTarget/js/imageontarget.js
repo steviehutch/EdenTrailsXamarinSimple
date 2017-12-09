@@ -17,7 +17,7 @@ var World = {
 		//	onLoaded: this.worldLoaded
 		//});
 
-        this.tracker = new AR.ClientTracker("assets/Hk13f4M1z.wtc", {
+        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker.wtc", {
             onLoaded: this.worldLoaded
         });
 
@@ -68,7 +68,7 @@ var World = {
         });
 
          // Create Dancing Frog Video drawable
-        var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_music.mp4", 0.5, {
+        var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_Jeepers_Creepers.mp4", 0.5, {
                 translate: {
                 x: 0.2,
                 y: 0.2
@@ -155,8 +155,8 @@ var World = {
         }
         });
 
-        // TROPICAL ISLANDS Popup
-        var pageOne = new AR.ImageTrackable(this.tracker, "Tropical_Islands_Seychelles", {
+        // Palm Oil Popup
+        var pageOne = new AR.ImageTrackable(this.tracker, "Palm_Oil_Marker_2", {
             drawables: {
             cam: [video, tropicalIslandWidget]
             },
@@ -176,9 +176,9 @@ var World = {
         });
 
         // WEST AFRICA popup
-        var page2 = new AR.ImageTrackable(this.tracker, "West_Africa_Marker", {
+        var page2 = new AR.ImageTrackable(this.tracker, "WestAfricaMarker", {
             drawables: {
-            cam: [video2, westAfricaWidget]
+            cam: [videoFrog, westAfricaWidget]
             },
 
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
@@ -195,10 +195,10 @@ var World = {
         }
         });
 
-        // SOUTH EAST ASIA popup...
-        var page3 = new AR.ImageTrackable(this.tracker, "South_East_Asia", {
+        // Chocolate popup...
+        var page3 = new AR.ImageTrackable(this.tracker, "Chocolate_Marker2", {
             drawables: {
-            cam: [videoFrog, treeFrogWidget]
+            cam: [video3, treeFrogWidget]
             },
 
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
@@ -222,15 +222,15 @@ var World = {
         var cssDivBananas = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 48px'";
         var cssDivLilypads = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 53px'";
         document.getElementById('loadingMessage').innerHTML =
-            "<div" + cssDivInstructions + ">Scan Target &#35;1 (Jade Vine) or &#35;2 (Bananas) or &#35;3 (Lilypads):</div>" +
-            "<div" + cssDivJadeVine + "><img src='assets/Tropical_Islands_Seychelles_98_50.png'></img></div>" +
-            "<div" + cssDivBananas + "><img src='assets/West_Africa_Marker_48_50.png'></img></div>" +
-            "<div" + cssDivLilypads + "><img src='assets/South_East_Asia_53_50.png'></img></div>";
-		// Remove Scan target message after 20 sec.
+            "<div" + cssDivInstructions + ">Find and point Camera at one of these: &#35;1 (Palm Oil) or &#35;2 (Chocolate) or &#35;3 (West Africa):</div>" +
+            "<div" + cssDivJadeVine + "><img src='assets/Palm_Oil_Marker_PNG_100_100.png'></img></div>" +
+            "<div" + cssDivBananas + "><img src='assets/Chocolate_Marker2.png'></img></div>" +
+            "<div" + cssDivLilypads + "><img src='assets/WestAfricaMarkerPNG.png'></img></div>";
+		// Remove Scan target message after 60 sec.
 		setTimeout(function() {
 			var e = document.getElementById('loadingMessage');
 			e.parentElement.removeChild(e);
-		}, 20000);
+		}, 60000);
 	}
 };
 
